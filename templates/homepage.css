@@ -16,12 +16,11 @@ body{
 /* Header and Reviews*/
 #banner1{
 position: absolute;
-width: 1440px;
+width: 100%;
 height: 134px;
 left: 0px;
 top: 0px;
 background: #FFFFFF;
-filter: blur(8.5px);
 }
 
 #signincircle{
@@ -66,15 +65,22 @@ font-weight: 400;
 font-size: 18px;
 line-height: 21px;
 color: #000000;
+text-decoration: none;
+}
 
+#myplan:hover{
+    color: #358856;
 }
 
 #signin{
+pointer-events: none;
+text-decoration: none;
 position: absolute;
-width: 56px;
+display: block;
+width: 100%;
 height: 21px;
-left: 1271px;
-top: 58px;
+left: 1269px;
+top: 57px;
 font-family: 'Raleway';
 font-style: normal;
 font-weight: 400;
@@ -82,6 +88,17 @@ font-size: 18px;
 line-height: 21px;
 color: #000000;
 }
+
+#signincircle:hover {
+    background: #358856;
+    display: block;
+    border-color: #358856;
+}
+
+#signincircle:hover + a{
+    color: #FFFFFF;
+}
+
 #header1{
 position: absolute;
 width: 525px;
@@ -174,12 +191,11 @@ color: #000000;
 }
 
 #quotationMark1{
-position: absolute;
-left: 1.8%;
-right: 1.8%;
-top: 9%;
-bottom: 9.02%;
-background: #FFEECC;
+    height: 124.6095962524414px;
+    width: 146.5279998779297px;
+    left: 2.735992431640625px;
+    top: 13.67999267578125px;
+    border-radius: 0px;    
 }
 
 #reviewrec1{
@@ -455,4 +471,100 @@ left: 1186px;
 top: 1536px;
 }
 
+/* Newsletter Section*/
+#newsletterHeader{
+    position: absolute;
+    width: 651px;
+    height: 47px;
+    left: 773px;
+    top: 1769px;
+    
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    /* identical to box height */
+    
+    
+    color: #000000;
+    
+}
 
+#newsletterDesc{
+    position: absolute;
+    width: 360px;
+    height: 29px;
+    left: 773px;
+    top: 1841px;
+    
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 162.9%;
+    /* or 29px */
+    
+    
+    color: #000000;
+    
+}
+
+#emailBox
+{
+box-sizing: border-box;
+
+    position: absolute;
+    width: 487px;
+    height: 71px;
+    left: 775px;
+    top: 1920px;
+    
+    border: 1px solid #140F0C;
+    padding-left: 1.5em;
+    border-radius: 10px;}
+
+
+#newsCalc{
+position: absolute;
+width: 582px;
+height: 583px;
+left: 72px;
+top: 1684px;
+}
+
+#signup1{
+    position: absolute;
+    width: 206px;
+    height: 50px;
+    left: 775px;
+    top: 2041px;
+    background: #358856;
+    border-radius: 103px;
+}
+
+#signup1:hover{
+    background-color: white;
+    border: 1px solid green;
+}
+
+#signup1:hover + a{
+    color: green;
+}
+
+
+#submit1{
+pointer-events: none;
+text-decoration: none;
+position: absolute;
+width: 63px;
+height: 21px;
+left: 846px;
+top: 2055px;
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+color: #FFFFFF;
+}
