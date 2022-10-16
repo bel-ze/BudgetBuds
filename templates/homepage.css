@@ -1,0 +1,425 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    width: 100%;
+}
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
+}
+
+/* Header and Reviews*/
+#banner1{
+position: absolute;
+width: 1440px;
+height: 134px;
+left: 0px;
+top: 0px;
+background: #FFFFFF;
+filter: blur(8.5px);
+}
+
+#signincircle{
+box-sizing: border-box;
+position: absolute;
+width: 136px;
+height: 41px;
+left: 1231px;
+top: 48px;
+border: 1px solid #000000;
+border-radius: 88.5px;
+}
+
+#budlogo {
+font-family: Raleway;
+font-size: 32px;
+font-weight: 700;
+line-height: 38px;
+letter-spacing: 0em;
+text-align: left;
+position: absolute;
+width: 168px;
+height: 38px;
+left: 72px;
+top: 49px;
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 38px;
+/* identical to box height */
+color: #000000;
+}
+
+#myplan{
+position: absolute;
+width: 66px;
+height: 21px;
+left: 1096px;
+top: 58px;
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+color: #000000;
+
+}
+
+#signin{
+position: absolute;
+width: 56px;
+height: 21px;
+left: 1271px;
+top: 58px;
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+color: #000000;
+}
+#header1{
+position: absolute;
+width: 525px;
+height: 150px;
+left: 72px;
+top: 263px;
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 64px;
+line-height: 75px;
+color: #000000;
+}
+
+#desc1{
+position: absolute;
+width: 499px;
+height: 87px;
+left: 72px;
+top: 446px;
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 162.9%;
+/* or 29px */
+color: #000000;
+}
+
+.button1{
+position: absolute;
+width: 206px;
+height: 50px;
+left: 72px;
+top: 574px;
+background: #358856;
+border-radius: 103px;
+}
+
+#image1{
+position: absolute;
+width: 731px;
+height: 732px;
+left: 636px;
+top: 89px;
+}
+
+#btntext{
+position: absolute;
+width: 111px;
+height: 21px;
+left: 120px;
+top: 588px;
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+color: #FFFFFF;
+}
+
+#reviews{
+position: absolute;
+width: 127px;
+height: 38px;
+left: 72px;
+top: 724px;
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 38px;
+/* identical to box height */
+color: #000000;
+}
+
+#reviewblurb{
+position: absolute;
+width: 299px;
+height: 29px;
+left: 72px;
+top: 787px;
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 162.9%;
+/* or 29px */
+color: #000000;
+}
+
+#quotationMark1{
+position: absolute;
+left: 1.8%;
+right: 1.8%;
+top: 9%;
+bottom: 9.02%;
+background: #FFEECC;
+}
+
+#reviewrec1{
+position: absolute;
+width: 499px;
+height: 478px;
+left: 72px;
+top: 871px;
+background: rgba(250, 250, 250, 0.7);
+border-radius: 10px;
+}
+
+#rating1{
+position: absolute;
+width: 56px;
+height: 47px;
+left: 128px;
+top: 957px;
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 47px;
+/* identical to box height */
+color: #358856; 
+}
+
+#ratingTitle1{
+position: absolute;
+width: 368px;
+height: 66px;
+left: 128px;
+top: 1042px;
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 28px;
+line-height: 33px;
+color: #000000;
+}
+
+#ratingDescription1{
+position: absolute;
+width: 375px;
+height: 116px;
+left: 124px;
+top: 1134px;
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 162.9%;
+/* or 29px */
+color: #000000;
+}
+
+#ratingAuthor1{
+position: absolute;
+width: 157px;
+height: 22px;
+left: 124px;
+top: 1276px;
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 19px;
+line-height: 22px;
+color: #358856;
+}
+
+/* Rating box 2*/
+#quotationMark2{
+position: absolute;
+left: 1.8%;
+right: 1.8%;
+top: 9%;
+bottom: 9.02%;
+background: #FFEECC;
+}
+    
+#reviewrec2{
+position: absolute;
+width: 499px;
+height: 478px;
+left: 628px;
+top: 871px;
+background: rgba(250, 250, 250, 0.7);
+border-radius: 10px;
+}
+
+#rating2{
+position: absolute;
+width: 56px;
+height: 47px;
+left: 684px;
+top: 957px;
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 47px;
+/* identical to box height */
+color: #358856;
+}
+
+#ratingTitle2{
+position: absolute;
+width: 368px;
+height: 66px;
+left: 684px;
+top: 1042px;
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 28px;
+line-height: 33px;
+color: #000000;
+}
+
+#ratingDescription2{
+    position: absolute;
+    width: 375px;
+    height: 116px;
+    left: 680px;
+    top: 1134px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 162.9%;
+    /* or 29px */
+    color: #000000;
+}
+
+#ratingAuthor2{
+position: absolute;
+width: 157px;
+height: 22px;
+left: 680px;
+top: 1276px;
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 19px;
+line-height: 22px;
+color: #358856;
+}
+
+/* Rating box 3*/
+#quotationMark3{
+    position: absolute;
+    left: 1.8%;
+    right: 1.8%;
+    top: 9%;
+    bottom: 9.02%;
+    background: #FFEECC;
+    }
+    
+.reviewrec3{
+position: absolute;
+width: 499px;
+height: 478px;
+left: 1184px;
+top: 871px;
+background: rgba(250, 250, 250, 0.7);
+border-radius: 10px;
+}
+    
+#rating3{
+position: absolute;
+width: 56px;
+height: 47px;
+left: 1240px;
+top: 957px;
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 47px;
+/* identical to box height */
+color: #358856;
+}
+    
+#ratingTitle3{
+position: absolute;
+width: 368px;
+height: 66px;
+left: 1240px;
+top: 1042px;
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 28px;
+line-height: 33px;
+color: #000000;
+}
+
+#ratingDescription3{
+    position: absolute;
+    width: 375px;
+    height: 116px;
+    left: 1236px;
+    top: 1134px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 162.9%;
+    /* or 29px */
+    color: #000000;
+    }
+    
+#ratingAuthor3{
+    position: absolute;
+    width: 157px;
+    height: 22px;
+    left: 1236px;
+    top: 1276px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 22px;
+    color: #358856;
+    }
+
+
+/* Trusted by*/
+#trusts{
+position: absolute;
+width: 163px;
+height: 38px;
+left: 72px;
+top: 1442px;
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 38px;
+/* identical to box height */
+color: #000000;
+}
+
