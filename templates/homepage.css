@@ -417,9 +417,42 @@ top: 1442px;
 font-family: 'Raleway';
 font-style: normal;
 font-weight: 700;
-font-size: 30px;
+font-size: 28px;
 line-height: 38px;
 /* identical to box height */
 color: #000000;
 }
+
+#technica_logo{
+position: absolute;
+width: 216px;
+height: 45px;
+left: 72px;
+top: 1546px;
+}
+
+#rowe_logo{
+position: absolute;
+width: 276px;
+height: 41px;
+left: 428px;
+top: 1546px; 
+}
+
+#capitalone_logo{
+position: absolute;
+width: 202px;
+height: 72px;
+left: 844px;
+top: 1526px;
+}
+
+#mlh_logo{
+position: absolute;
+width: 145px;
+height: 62px;
+left: 1186px;
+top: 1536px;
+}
+
 
