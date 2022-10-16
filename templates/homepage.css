@@ -167,7 +167,7 @@ pointer-events: none;
     border: 1px solid green;
 }
 
-.button1:hover + a{
+.button1:hover + #btntext{
     color: green;
 }
 
