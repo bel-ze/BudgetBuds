@@ -4,6 +4,11 @@
     width: 100%;
 }
 
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 body{
     font-family: 'Raleway', sans-serif;
 }
@@ -202,7 +207,7 @@ line-height: 47px;
 color: #358856; 
 }
 
-.ratingTitle{
+#ratingTitle1{
 position: absolute;
 width: 368px;
 height: 66px;
@@ -216,7 +221,7 @@ line-height: 33px;
 color: #000000;
 }
 
-.ratingDescription{
+#ratingDescription1{
 position: absolute;
 width: 375px;
 height: 116px;
@@ -231,7 +236,7 @@ line-height: 162.9%;
 color: #000000;
 }
 
-.ratingAuthor{
+#ratingAuthor1{
 position: absolute;
 width: 157px;
 height: 22px;
@@ -245,6 +250,161 @@ line-height: 22px;
 color: #358856;
 }
 
+/* Rating box 2*/
+#quotationMark2{
+position: absolute;
+left: 1.8%;
+right: 1.8%;
+top: 9%;
+bottom: 9.02%;
+background: #FFEECC;
+}
+    
+#reviewrec2{
+position: absolute;
+width: 499px;
+height: 478px;
+left: 628px;
+top: 871px;
+background: rgba(250, 250, 250, 0.7);
+border-radius: 10px;
+}
+
+#rating2{
+position: absolute;
+width: 56px;
+height: 47px;
+left: 684px;
+top: 957px;
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 47px;
+/* identical to box height */
+color: #358856;
+}
+
+#ratingTitle2{
+position: absolute;
+width: 368px;
+height: 66px;
+left: 684px;
+top: 1042px;
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 28px;
+line-height: 33px;
+color: #000000;
+}
+
+#ratingDescription2{
+    position: absolute;
+    width: 375px;
+    height: 116px;
+    left: 680px;
+    top: 1134px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 162.9%;
+    /* or 29px */
+    color: #000000;
+}
+
+#ratingAuthor2{
+position: absolute;
+width: 157px;
+height: 22px;
+left: 680px;
+top: 1276px;
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 19px;
+line-height: 22px;
+color: #358856;
+}
+
+/* Rating box 3*/
+#quotationMark3{
+    position: absolute;
+    left: 1.8%;
+    right: 1.8%;
+    top: 9%;
+    bottom: 9.02%;
+    background: #FFEECC;
+    }
+    
+.reviewrec3{
+position: absolute;
+width: 499px;
+height: 478px;
+left: 1184px;
+top: 871px;
+background: rgba(250, 250, 250, 0.7);
+border-radius: 10px;
+}
+    
+#rating3{
+position: absolute;
+width: 56px;
+height: 47px;
+left: 1240px;
+top: 957px;
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 47px;
+/* identical to box height */
+color: #358856;
+}
+    
+#ratingTitle3{
+position: absolute;
+width: 368px;
+height: 66px;
+left: 1240px;
+top: 1042px;
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 28px;
+line-height: 33px;
+color: #000000;
+}
+
+#ratingDescription3{
+    position: absolute;
+    width: 375px;
+    height: 116px;
+    left: 1236px;
+    top: 1134px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 162.9%;
+    /* or 29px */
+    color: #000000;
+    }
+    
+#ratingAuthor3{
+    position: absolute;
+    width: 157px;
+    height: 22px;
+    left: 1236px;
+    top: 1276px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 22px;
+    color: #358856;
+    }
 
 
 /* Trusted by*/
@@ -257,9 +417,9 @@ top: 1442px;
 font-family: 'Raleway';
 font-style: normal;
 font-weight: 700;
-font-size: 32px;
+font-size: 30px;
 line-height: 38px;
 /* identical to box height */
-color: #000000; 
+color: #000000;
 }
 
