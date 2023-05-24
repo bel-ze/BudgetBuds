@@ -1,3 +1,6 @@
+## Technica Hackathon 2022
+## Budget Buds: Money Management App
+
 ## Inspiration
 Our inspiration for developing Budget Buds stemmed from the need for young adults to learn effective money management, savings, and budgeting skills. We drew inspiration from popular mobile apps like Mint, which allow users to allocate their income into various categories. Additionally, we were inspired by budgeting videos where individuals showcased their budgeting methods using pen and paper, and we aimed to digitize and enhance that process.
 
